@@ -1,0 +1,2 @@
+# Rebuild the raindash status page every 5 minutes.
+*/5 * * * * raindash /usr/bin/python3 /opt/raindash/status.py >/dev/null 2>>/var/log/raindash/status-errors.log

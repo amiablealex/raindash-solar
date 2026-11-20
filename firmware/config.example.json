@@ -1,0 +1,13 @@
+{
+  "name": "raindash-kitchen",
+  "wifi": [
+    {"ssid": "HOME_WIFI", "password": "HOME_PASSWORD",
+     "place": "London", "lat": 51.51, "lon": -0.13},
+    {"ssid": "OTHER_WIFI", "password": "OTHER_PASSWORD",
+     "place": "Manchester", "lat": 53.48, "lon": -2.24}
+  ],
+  "rotate": 90,
+  "refresh_min": 30,
+  "battery": {"low_pct": 20, "vsys_scale": 1.0, "diode_v": 0.3},
+  "heartbeat": {"url": "", "method": "POST", "every": 1}
+}
